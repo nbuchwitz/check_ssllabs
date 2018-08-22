@@ -57,7 +57,7 @@ optional arguments:
 OK - SSLLabs score for domain 'example.com' is A
 ```
 
-If the domain is served by multiple server, you could also specify an IP address for the test:
+If the domain is served by multiple servers, you could also specify an IP address for the test:
 ```
 ./check_ssllabs.py -d example.com -i 127.0.0.1
 CRITICAL - IP address '127.0.0.1' not found in test results of domain 'example.com'
